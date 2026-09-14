@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, yellow, rgb(255, 115, 0));
+    }
+
+    section#login{
+        width: 90vw;
+    }
+
+    div#imag{
+        float: left;
+        width: 35%;
+        height: 100%;
+        background-position: center right;
+    }
+
+    div#form{
+        float: right;
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to bottom, yellow, rgb(255, 115, 0));
+    }
+
+    section#login{
+        width: 950px;
+    }
+
+    div#imag{
+        float: right;
+        width: 50%;
+        height: 100vh;
+        background-position: center right;
+    }
+
+    div#rorm{
+        float: left;
+        width: 50%;
+    }
+}
