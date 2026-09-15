@@ -20,6 +20,21 @@
         float: right;
         width: 60%;
     }
+
+    div#form h1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 0);
+    width: min-content;
+    border-radius: 25px;
+    font-size: 2.5em;
+    }
+
+    div#form p{
+        padding: 5px 0px 0px 20px;
+        font-size: 1.5em;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -32,14 +47,32 @@
     }
 
     div#imag{
-        float: right;
+        float: left;
         width: 50%;
         height: 100vh;
         background-position: center right;
     }
 
-    div#rorm{
-        float: left;
-        width: 50%;
+    div#form{
+        float: right;
+        width: 47%;
+        height: 100vh;
     }
+
+    div#form h1{
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(255, 255, 0);
+    width: min-content;
+    border-radius: 25px;
+    font-size: 2.5em;
+    }
+
+    div#form p{
+        padding: 5px 0px 0px 20px;
+        font-size: 1.5em;
+    }
+
+    
 }
